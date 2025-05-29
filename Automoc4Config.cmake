@@ -55,7 +55,7 @@ if(COMMAND cmake_policy)
   cmake_policy(PUSH)
 endif(COMMAND cmake_policy)
 
-cmake_minimum_required( VERSION 3.5 FATAL_ERROR )
+cmake_minimum_required( VERSION 3.12 FATAL_ERROR )
 
 get_filename_component(_AUTOMOC4_CURRENT_DIR  "${CMAKE_CURRENT_LIST_FILE}" PATH)
 
